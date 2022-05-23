@@ -1,6 +1,14 @@
 import React from "react";
+interface Props {
+  handleChange: any
+  hidePoke: any
+  right: any
+  setInputPoke: any
+  inputVal: any
+  changeImg: any
+}
 
- const FormGuess = ({ handleChange, hidePoke, right, setInputPoke, inputVal, changeImg }) => {
+ const FormGuess: React.FC<Props> = ({ handleChange, hidePoke, right, setInputPoke, inputVal, changeImg }) => {
   return (
     <form onSubmit={handleChange} autoComplete="off" className="guess-form">
         <input
