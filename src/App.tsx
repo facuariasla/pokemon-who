@@ -71,7 +71,6 @@ function App() {
               </div>
               <button
                 type="button"
-                className="nes-btn is-primary"
                 onClick={() => setHidePoke(false)}
               >
                 Show
