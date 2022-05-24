@@ -2,11 +2,23 @@
 
 * {
   box-sizing: border-box;
+  
 }
 
 body {
   margin: 0;
   padding: 0;
+  background-color:hsla(0,100%,50%,1);
+  background-image:
+  radial-gradient(at 40% 20%, hsla(0,95%,53%,0.36) 0px, transparent 50%),
+  radial-gradient(at 80% 0%, hsla(359,46%,49%,1) 0px, transparent 50%),
+  radial-gradient(at 0% 50%, hsla(355,100%,40%,0.43) 0px, transparent 50%),
+  radial-gradient(at 80% 50%, hsla(289,100%,49%,0.31) 0px, transparent 50%),
+  radial-gradient(at 0% 100%, hsla(12,100%,8%,0.79) 0px, transparent 50%),
+  radial-gradient(at 80% 100%, hsla(240,37%,20%,0.53) 0px, transparent 50%),
+  radial-gradient(at 0% 0%, hsla(48,100%,46%,0.95) 0px, transparent 50%);
+  background-size: 100% 100%;
+  
 }
 
 main {
@@ -70,6 +82,8 @@ header {
   display: flex;
   justify-items: center;
   align-items: center;
+  padding-right: 30px;
+  padding-left: 30px;
 }
 
 .container-title h2 {
