@@ -104,8 +104,8 @@ header {
 }
 
 .api-data_img img {
-  width: auto;
-  height: 100%;
+  width: 200px;
+  height: auto;
 }
 @media (max-width: 400px){
   .api-data_img img {
@@ -159,10 +159,14 @@ header {
 /* ////////// FORM */
 
 .guess-form {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 60px 60px 60px;
+  gap: 10px;
+  justify-items: center;
+  /* flex-direction: column;
   justify-content: space-around;
-  align-items: center;
+  align-items: center; */
 }
 .guess-form button, .guess-form input {
   width: 100%;
